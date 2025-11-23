@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel} % pro správné nastavení češtiny
+\usepackage[unicode={true}]{hyperref} % pro správné zobrazení obsahu
+
+\title{Vývoj aplikace pro správu členské databáze v C\#}
+\author{Filip Mach}
+\date{Říjen 2025}
+
+\begin{document}
+\maketitle
+
+\section{Úvod}
+Cílem práce by mělo být vytvoření desktopové aplikace, jež by umožňovala „ukládat“ a získávat 
+komplexní informace o členech určitého spolku. Základem by měla být databáze členů se základními
+údaji o nich, dostupná administrátorovi respektive vybraným uživatelům. 
+
+Vize je taková, že existuje „vedoucí“ určitého spolku (např. sportovního klubu), který potřebuje
+vést členskou základnu se základními údaji (jméno, datum narození atd.) o každém členovi. 
+Dále potřebuje zaznamenávat docházku určitých členů, nebo třeba příslušnost do určitých družstev,
+či tříd. Tato aplikace by mu měla umožnit všechny tyto informace bezpečně uložit, mít k nim
+prostřednictvím aplikace přístup a možnost je upravovat. Celkově si to lze představit jako takové
+Bakaláře.
+
+Motivace za tímto tématem je taková, že mě požádal konkrétní sportovní klub o vytvoření 
+takovéto aplikace.
+
+\section{Teoretická část}
+Požadované znalosti pro vytvoření této aplikace by měly být znalost nějakého programovacího 
+jazyka pro vytvoření desktopové aplikace, v mém případě C\#. Dále znalost jazyku pro vytvoření 
+databáze a komunikaci s ní (SQL) a schopnost komunikace mezi těmito dvěma části (frontend a 
+backend).
+
+Základní principem by tedy mělo být určité spojení databáze s desktopovou aplikací. Pro komunikaci
+s databází využiji knihovnu Entity Framework Core. Co se týče zabezpečení dat, tak je hlavní
+aby všechna citlivá data byly v databázi zašifrované a veškerá komunikace mezi frontendem a 
+backendem nepřenášela žádná nezašifrovaná citlivá data. Tomuto napomůže i využití takzvaného 
+MVVM patternu, který efektivně oddělí UI od samotné databáze.\\
+Aplikace fungující na podobném principu již existují, ovšem všechny dostačující pro naše potřeby 
+jsou nepřiměřeně zpoplatněné, tudíž se nabízí si vytvořit aplikace vlastní.
+
+\newpage
+
+\section{Praktická část}
+Aplikace by  měla mít následující funkcionality:
+\begin{itemize}
+    \item možnost zobrazit a upravovat informace o každém členovy (datum narození, družstvo atd.)
+    \item jednoduché zapisování docházky na konkrétní tréninky (či schůze)
+    \item omezení přístupu k jednotlivým informacím pro určité uživatele
+    \item možnost komunikace administrátora s členy
+    \item možnost přihlášení se jednotlivých členů do aplikace, pro zobrazení informací o nich 
+    samotných
+\end{itemize}
+Aplikace by měla být navržená tak, aby šlo v budoucnu přidat libovolné další funkcionality, 
+případně spojit ji s webovou stránkou či mobilní aplikací. Nejsem si jistý, co všechno lze 
+stihnout v rámci této ročníkové práce, je teda možné, že jednotlivé funkcionality přidám, či
+vynechám.
+
+\section{Závěr}
+Měla by vzniknout v reálu použitelná aplice, jež umožní jednoduchou práci v rámci výše 
+definovaných funkcionalit.
+
+\section{Výstup}
+Práce v minimálním rozsahu 10 stran textu, prezentace pro představení práce a samotná aplikace.
+\end{document}
+
