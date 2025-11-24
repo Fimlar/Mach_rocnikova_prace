@@ -7,12 +7,12 @@ namespace Rocnikovka_first.Models
     public class Residence
     {
         [Key]
-        public int Residence_ID { get; set; }
-        public int Member_ID { get; set; }
-        public Member Member { get; set; } = null!;
-        public string Street { get; set; } = null!;
-        public string Postal_number { get; set; } = null!;
-        public string City_part { get; set; } = null!;
-        public int PSC {  get; set; }
+        public int id { get; set; }
+        public int person_id { get; set; }
+        public Person person { get; set; } = null!;
+        public string street { get; set; } = null!;
+        public string postal_number { get; set; } = null!;
+        public string city_part { get; set; } = null!;
+        public int psc {  get; set; }
     }
 }

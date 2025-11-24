@@ -11,16 +11,16 @@ namespace Rocnikovka_first.Models
     public class Training
     {
         [Key]
-        public int Training_ID { get; set; }
+        public int id { get; set; }
 
         [Column(TypeName="DATE")]
-        public DateTime Date { get; set; }
+        public DateTime date { get; set; }
 
         [Column(TypeName ="TIME")]
-        public TimeOnly Start_time { get; set; }
+        public TimeOnly start_time { get; set; }
 
         [Column(TypeName = "TIME")]
-        public TimeOnly End_time { get; set; }
-        public string? Location { get; set; }
+        public TimeOnly end_time { get; set; }
+        public string? location { get; set; }
     }
 }

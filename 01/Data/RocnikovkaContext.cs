@@ -5,13 +5,14 @@ namespace Rocnikovka_first.Data
 {
     public class RocnikovkaContext : DbContext
     {
-        public DbSet<Member> Members { get; set; } = null!;
-        public DbSet<Excuse> Excuses { get; set; } = null!;
-        public DbSet<Representative> Representatives { get; set; } = null!;
-        public DbSet<Residence> Residences { get; set; } = null!;
-        public DbSet<Role> Roles { get; set; } = null!;
-        public DbSet<Team> Teams { get; set; } = null!;
-        public DbSet<Training> Trainings { get; set; } = null!;
+        public DbSet<Person> Member { get; set; } = null!;
+        public DbSet<Excuse> Excuse { get; set; } = null!;
+        public DbSet<Representative> Representative { get; set; } = null!;
+        public DbSet<Residence> Residence { get; set; } = null!;
+        public DbSet<Role> Role { get; set; } = null!;
+        public DbSet<Team> Team { get; set; } = null!;
+        public DbSet<Training> Training { get; set; } = null!;
+        public DbSet<Attendance> Attendance { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

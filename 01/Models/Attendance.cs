@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace Rocnikovka_first.Models
 {
-    public class Excuse
+    public class Attendance
     {
         [Key]
         public int id { get; set; }
+
+        public int training_id { get; set; }
+
         public int person_id { get; set; }
-        public int excuser_id { get; set; }
-        public Person member { get; set; } = null!;
-        public Representative excuser { get; set; } = null!;
-        public string excuse_date { get; set; } = null!;
-        public string message { get; set; } = null!;
+
+        public int status { get; set; }         // 0: přítomen, 1: omluven, 2: neomluven
     }
 }
