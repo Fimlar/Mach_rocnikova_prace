@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\data\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:data\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\data\\rocnikovkacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:data\\rocnikovkacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\models\\residence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:models\\residence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\models\\excuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:models\\excuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\02\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66166FEF-7B46-48EE-8CF5-F0CE53B500F5}|Rocnikovka_first.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RocnikovkaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Data\\RocnikovkaContext.cs",
+              "RelativeDocumentMoniker": "Data\\RocnikovkaContext.cs",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Data\\RocnikovkaContext.cs",
+              "RelativeToolTip": "Data\\RocnikovkaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:57:28.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "Models\\Team.cs",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Team.cs",
+              "RelativeToolTip": "Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:57:24.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Residence.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Residence.cs",
+              "RelativeDocumentMoniker": "Models\\Residence.cs",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Residence.cs",
+              "RelativeToolTip": "Models\\Residence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:57:22.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:57:21.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Excuse.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Excuse.cs",
+              "RelativeDocumentMoniker": "Models\\Excuse.cs",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Models\\Excuse.cs",
+              "RelativeToolTip": "Models\\Excuse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:57:19.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICrudService.cs",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Data\\ICrudService.cs",
+              "RelativeDocumentMoniker": "Data\\ICrudService.cs",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\Data\\ICrudService.cs",
+              "RelativeToolTip": "Data\\ICrudService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:57:06.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T18:51:04.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\02\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T18:50:56.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

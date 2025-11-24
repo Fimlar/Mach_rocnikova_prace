@@ -12,7 +12,11 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\01\App.xaml
 11407045341
 
+<<<<<<< Updated upstream
 18348672517
+=======
+18-1719549119
+>>>>>>> Stashed changes
 2291627407167
 MainWindow.xaml;
 
