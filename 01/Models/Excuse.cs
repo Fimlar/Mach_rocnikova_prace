@@ -11,10 +11,10 @@ namespace Rocnikovka_first.Models
     {
         [Key]
         public int id { get; set; }
-        public int person_id { get; set; }
-        public int excuser_id { get; set; }
-        public Person member { get; set; } = null!;
-        public Representative excuser { get; set; } = null!;
+        public int personId { get; set; }
+        //public int excuserId { get; set; }
+        public Person person { get; set; } = null!;
+        //public Representative excuser { get; set; } = null!;
         public string excuse_date { get; set; } = null!;
         public string message { get; set; } = null!;
     }

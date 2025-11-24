@@ -12,9 +12,9 @@ namespace Rocnikovka_first.Models
         [Key]
         public int id { get; set; }
 
-        public int training_id { get; set; }
+        public int trainingId { get; set; }
 
-        public int person_id { get; set; }
+        public int personId { get; set; }
 
         public int status { get; set; }         // 0: přítomen, 1: omluven, 2: neomluven
     }

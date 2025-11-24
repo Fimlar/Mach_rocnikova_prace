@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "O:\\Seminář\\GitHub\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj": {}
+    "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj": {}
   },
   "projects": {
-    "O:\\Seminář\\GitHub\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj": {
+    "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\Seminář\\GitHub\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj",
+        "projectUniqueName": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj",
         "projectName": "Rocnikovka_first",
-        "projectPath": "O:\\Seminář\\GitHub\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj",
-        "packagesPath": "C:\\Users\\mach\\.nuget\\packages\\",
-        "outputPath": "O:\\Seminář\\GitHub\\Mach_rocnikova_prace\\01\\obj\\",
+        "projectPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\01\\Rocnikovka_first.csproj",
+        "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,7 +86,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

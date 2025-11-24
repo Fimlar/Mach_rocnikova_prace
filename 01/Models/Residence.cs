@@ -8,7 +8,7 @@ namespace Rocnikovka_first.Models
     {
         [Key]
         public int id { get; set; }
-        public int person_id { get; set; }
+        public int personId { get; set; }
         public Person person { get; set; } = null!;
         public string street { get; set; } = null!;
         public string postal_number { get; set; } = null!;

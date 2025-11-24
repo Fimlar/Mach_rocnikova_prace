@@ -18,9 +18,9 @@ namespace Rocnikovka_first.Models
         public int birth_number { get; set; }
         public string health_insurance_name { get; set; } = null!;
         public int health_insurance_number { get; set; }
-        public int team_id { get; set; }
+        public int teamId { get; set; }
         public Team team { get; set; } = null!;
-        public int role_id { get; set; }
+        public int roleId { get; set; }
         public Role role { get; set; } = null!;
         public bool active { get; set; }
     }
