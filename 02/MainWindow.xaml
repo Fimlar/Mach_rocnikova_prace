@@ -6,11 +6,7 @@
         xmlns:vm="clr-namespace:Rocnikovka_first.ViewModels"
         mc:Ignorable="d"
         Title="Správa členů" Height="600" Width="1000">
-    <Window.DataContext>
-        <!-- Při design-time ukazujeme typ ViewModelu, runtime DataContext nastavíme v code-behind,
-             ale klidně to můžeš nechat takto i pro runtime. -->
-        <vm:MainWindowViewModel />
-    </Window.DataContext>
+    
 
     <Grid Margin="10">
         <Grid.ColumnDefinitions>

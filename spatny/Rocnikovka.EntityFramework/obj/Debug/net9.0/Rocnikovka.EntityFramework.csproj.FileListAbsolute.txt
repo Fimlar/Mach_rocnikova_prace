@@ -1,0 +1,15 @@
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.csproj.AssemblyReference.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.AssemblyInfo.cs
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.sourcelink.json
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\bin\Debug\net9.0\Rocnikovka.EntityFramework.deps.json
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\bin\Debug\net9.0\Rocnikovka.EntityFramework.runtimeconfig.json
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\bin\Debug\net9.0\Rocnikovka.EntityFramework.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\bin\Debug\net9.0\Rocnikovka.EntityFramework.pdb
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\refint\Rocnikovka.EntityFramework.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.pdb
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\Rocnikovka.EntityFramework.genruntimeconfig.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.EntityFramework\obj\Debug\net9.0\ref\Rocnikovka.EntityFramework.dll

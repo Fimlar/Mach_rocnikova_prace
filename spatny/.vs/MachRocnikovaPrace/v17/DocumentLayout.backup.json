@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\MachRocnikovaPrace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73AB8A9B-224F-47FA-A5A0-2D361F5F410F}|Rocnikovka.Domain\\Rocnikovka.Domain.csproj|c:\\users\\filip\\documents\\git\\mach_rocnikova_prace\\machrocnikovaprace\\rocnikovka.domain\\rocnikovka.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73AB8A9B-224F-47FA-A5A0-2D361F5F410F}|Rocnikovka.Domain\\Rocnikovka.Domain.csproj|solutionrelative:rocnikovka.domain\\rocnikovka.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rocnikovka.Domain",
+              "DocumentMoniker": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\MachRocnikovaPrace\\Rocnikovka.Domain\\Rocnikovka.Domain.csproj",
+              "RelativeDocumentMoniker": "Rocnikovka.Domain\\Rocnikovka.Domain.csproj",
+              "ToolTip": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\MachRocnikovaPrace\\Rocnikovka.Domain\\Rocnikovka.Domain.csproj",
+              "RelativeToolTip": "Rocnikovka.Domain\\Rocnikovka.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-27T16:28:03.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

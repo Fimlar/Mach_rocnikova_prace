@@ -1,0 +1,16 @@
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.csproj.AssemblyReference.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.AssemblyInfoInputs.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.AssemblyInfo.cs
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.sourcelink.json
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\bin\Debug\net9.0\Rocnikovka.Domain.deps.json
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\bin\Debug\net9.0\Rocnikovka.Domain.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\bin\Debug\net9.0\Rocnikovka.Domain.pdb
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\bin\Debug\net9.0\Rocnikovka.EntityFramework.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\bin\Debug\net9.0\Rocnikovka.EntityFramework.pdb
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikov.8F32E417.Up2Date
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\refint\Rocnikovka.Domain.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\Rocnikovka.Domain.pdb
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\MachRocnikovaPrace\Rocnikovka.Domain\obj\Debug\net9.0\ref\Rocnikovka.Domain.dll
