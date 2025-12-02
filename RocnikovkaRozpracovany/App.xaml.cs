@@ -18,9 +18,6 @@ namespace Mach_rocnikova_prace
             Window window = new MainWindow();
             window.DataContext = new MainViewModel();
             window.Show();
-
-            IDataService<Role> roleService = new GenericDataService<Role>(new RocnikovkaDbContextFactory());
-            roleService.Get(1);
             
 
             base.OnStartup(e);

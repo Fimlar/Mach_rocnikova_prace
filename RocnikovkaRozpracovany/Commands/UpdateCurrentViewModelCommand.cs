@@ -1,4 +1,6 @@
-﻿using Mach_rocnikova_prace.State.Navigators;
+﻿using Mach_rocnikova_prace.Models;
+using Mach_rocnikova_prace.Services;
+using Mach_rocnikova_prace.State.Navigators;
 using Mach_rocnikova_prace.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -13,33 +15,30 @@ namespace Mach_rocnikova_prace.Commands
     {
         public event EventHandler? CanExecuteChanged;
 
-        private INavigator _navigator;
+        private readonly INavigator _navigator;
+        private readonly IDataService<Person> _peopleService;
 
-        public UpdateCurrentViewModelCommand(INavigator navigator)
+        public UpdateCurrentViewModelCommand(INavigator navigator,
+                                             IDataService<Person> peopleService)
         {
             _navigator = navigator;
+            _peopleService = peopleService;
         }
 
-        public bool CanExecute(object? parameter)
-        {
-            return true;
-        }
+        public bool CanExecute(object? parameter) => true;
 
         public void Execute(object? parameter)
         {
-            if (parameter is ViewType)
+            if (parameter is ViewType viewType)
             {
-                ViewType viewType = (ViewType) parameter;
-
                 switch (viewType)
                 {
                     case ViewType.Home:
                         _navigator.CurrentViewModel = new HomeViewModel();
                         break;
+
                     case ViewType.People:
-                        _navigator.CurrentViewModel = new PeopleViewModel();
-                        break;
-                    default:
+                        _navigator.CurrentViewModel = new PeopleViewModel(_peopleService);
                         break;
                 }
             }

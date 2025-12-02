@@ -1,5 +1,7 @@
 ﻿using Mach_rocnikova_prace.Commands;
+using Mach_rocnikova_prace.Models;
 using Mach_rocnikova_prace.MVVMModels;
+using Mach_rocnikova_prace.Services;
 using Mach_rocnikova_prace.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -13,26 +15,23 @@ namespace Mach_rocnikova_prace.State.Navigators
 {
     public class Navigator : ObservableObject, INavigator
     {
-        /// <summary>
-        /// proměnná ukládající momentální ViewModel
-        /// </summary>
         private ViewModelBase _currentViewModel;
         public ViewModelBase CurrentViewModel
         {
-            get
-            {
-                return _currentViewModel;
-            }
+            get => _currentViewModel;
             set
             {
-                // refreshnutí hodnoty
                 _currentViewModel = value;
                 OnPropertyChanged(nameof(CurrentViewModel));
             }
         }
 
-        public ICommand UpdateCurrentViewModelCommand => new UpdateCurrentViewModelCommand(this);
+        public ICommand UpdateCurrentViewModelCommand { get; }
 
-        
+        public Navigator(IDataService<Person> peopleService)
+        {
+            UpdateCurrentViewModelCommand =
+                new UpdateCurrentViewModelCommand(this, peopleService);
+        }
     }
 }

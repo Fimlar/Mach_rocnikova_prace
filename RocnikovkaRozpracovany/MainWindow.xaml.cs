@@ -27,9 +27,9 @@ namespace Mach_rocnikova_prace
         public void Test()
         {
             /*IDataService<Role> roleService = new GenericDataService<Role>(new RocnikovkaDbContextFactory());
-            roleService.Delete(1);*/
+            roleService.Delete(1);
             IDataService<Role> roleService = new GenericDataService<Role>(new RocnikovkaDbContextFactory());
-            roleService.Create(new Role { Name = "Trenér" });
+            roleService.Create(new Role { Name = "Trenér" });*/
 
             /*IDataService<Person> personService = new GenericDataService<Person>(new RocnikovkaDbContextFactory());
             personService.Create(new Person { LastName = "Mach", FirstName = "Filip", Active = true, BirthNumber = 0706304940, DateOfBirth = new DateTime(2007, 6, 30),

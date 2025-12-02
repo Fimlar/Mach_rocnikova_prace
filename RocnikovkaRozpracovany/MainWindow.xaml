@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="80*"/>
             </Grid.ColumnDefinitions>
 
-            <controls:CompanyIdentity DataContext="{Binding CompanyIdentity}"/>
+            <controls:CompanyIdentity/>
 
         </Grid>
         

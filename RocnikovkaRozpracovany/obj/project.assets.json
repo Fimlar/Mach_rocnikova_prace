@@ -4717,11 +4717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\03\\Mach_rocnikova_prace.csproj",
+      "projectUniqueName": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\RocnikovkaRozpracovany\\Mach_rocnikova_prace.csproj",
       "projectName": "Mach_rocnikova_prace",
-      "projectPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\03\\Mach_rocnikova_prace.csproj",
+      "projectPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\RocnikovkaRozpracovany\\Mach_rocnikova_prace.csproj",
       "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\03\\obj\\",
+      "outputPath": "C:\\Users\\Filip\\Documents\\Git\\Mach_rocnikova_prace\\RocnikovkaRozpracovany\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -18,7 +18,13 @@
         </StackPanel>
         
         <!--Zobrazení výsledku hledání-->
-        <ListView Grid.Row="1" Name="peopleListView" ItemsSource="{Binding People}"
-                  Background="{StaticResource BrushPrimary3}"/>
+        <DataGrid Grid.Row="1" ItemsSource="{Binding People}" AutoGenerateColumns="False"
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Jméno" Binding="{Binding FirstName}"/>
+                <DataGridTextColumn Header="Příjmení" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </UserControl>
