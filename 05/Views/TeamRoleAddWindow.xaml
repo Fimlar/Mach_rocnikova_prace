@@ -1,0 +1,61 @@
+﻿<Window x:Class="Mach_rocnikova_prace.Views.TeamRoleAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mach_rocnikova_prace.Views"
+        xmlns:controls="clr-namespace:Mach_rocnikova_prace.Controls"
+        mc:Ignorable="d"
+        Title="TeamRoleAddWindow" Height="300" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Hlavní text-->
+        <TextBlock Grid.Row="0" Text="Přidej roli/tým" FontSize="24" HorizontalAlignment="Center"/>
+        
+        <!--Vertikální rozdělení role/team-->
+        <Grid Grid.Row="1" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+            
+            <!--Role-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <!--Přidej roli-->
+                <TextBlock Text="Přidej roli:" FontSize="16" HorizontalAlignment="Center"/>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10, 0">
+                    <controls:CustomTextBox Width="150" PlaceHolder="Název Role"
+                                            x:Name="RoleNameBox"/>
+                    <Button Content="Uložit" Margin="10, 0" 
+                            Command="{Binding AddRoleCommand}"
+                            CommandParameter="{Binding ElementName=RoleNameBox, Path=Text}"/>
+                </StackPanel>
+            </Grid>
+            
+            <!--Team-->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <!--Přidej roli-->
+                <TextBlock Text="Přidej tým:" FontSize="16" HorizontalAlignment="Center"/>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10, 0">
+                    <controls:CustomTextBox Width="150" PlaceHolder="Název Týmu"
+                                            x:Name="TeamNameBox"/>
+                    <Button Content="Uložit" Margin="10, 0" 
+                            Command="{Binding AddTeamCommand}"
+                            CommandParameter="{Binding ElementName=TeamNameBox, Path=Text}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

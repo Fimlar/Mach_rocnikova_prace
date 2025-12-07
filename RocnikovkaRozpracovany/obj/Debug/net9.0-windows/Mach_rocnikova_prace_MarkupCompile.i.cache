@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\App.xaml
-71185067935
+9819138154
 
-38669477064
+391791214276
 2291627407167
-Controls\CompanyIdentity.xaml;Controls\NavigationBar.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Views\HomeView.xaml;Views\PeopleView.xaml;
+Controls\CompanyIdentity.xaml;Controls\NavigationBar.xaml;Controls\SearchPanel.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Styles\SearchPanel.xaml;Views\HomeView.xaml;Views\PeopleView.xaml;
 
 True
 

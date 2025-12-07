@@ -445,3 +445,6 @@ C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Deb
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Debug\net9.0-windows\Mach_rocnikova_prace.pdb
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Debug\net9.0-windows\Mach_rocnikova_prace.genruntimeconfig.cache
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Debug\net9.0-windows\ref\Mach_rocnikova_prace.dll
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Debug\net9.0-windows\Styles\SearchPanel.baml
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Debug\net9.0-windows\Controls\SearchPanel.g.cs
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\RocnikovkaRozpracovany\obj\Debug\net9.0-windows\Controls\SearchPanel.baml

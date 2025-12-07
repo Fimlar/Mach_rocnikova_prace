@@ -1,0 +1,171 @@
+﻿<UserControl x:Class="Mach_rocnikova_prace.Views.PeopleSearch"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mach_rocnikova_prace.Views"
+             mc:Ignorable="d" 
+             Background="White"
+
+             xmlns:controls="clr-namespace:Mach_rocnikova_prace.Controls"
+             xmlns:vm="clr-namespace:Mach_rocnikova_prace.ViewModels"
+             xmlns:conv="clr-namespace:Mach_rocnikova_prace.Converters"
+             
+             
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="95*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Panel hledání-->
+        <Grid RenderOptions.EdgeMode="Aliased">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource BasicBtn}"/>
+            </Grid.Resources>
+            
+            <!--Stack Panel pro TextBox, Button a Grid-->
+            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+                <TextBox Width="200" MaxHeight="30" Margin="30, 0" 
+                         Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button Width="70" MaxHeight="30" Content="Hledat"
+                        Command="{Binding SearchCommand}"/>
+                
+                <!--Grid tlačítek pro výběr hledacích parametrů-->
+                <Grid Margin="30, 0">
+                    <Grid.Resources>
+                        <!--Používáme converter-->
+                        <conv:EnumToBooleanConverter x:Key="EnumToBooleanConverter"/>
+                        
+                        <!--Styly tlačítek-->
+                        <Style TargetType="RadioButton" BasedOn="{StaticResource SearchButton}">
+                            <!-- všechny radio buttony do jedné skupiny -->
+                            <Setter Property="GroupName" Value="SearchFieldGroup"/>
+                        </Style>
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <RadioButton Grid.Column="0" Width="35" Content="Id"
+                             IsChecked="{Binding SelectedSearchField,
+                                                 Mode=TwoWay,
+                                                 Converter={StaticResource EnumToBooleanConverter},
+                                                 ConverterParameter={x:Static vm:PeopleSearchField.Id}}"/>
+                    <RadioButton Grid.Column="1" Width="70" Content="Příjmení"
+                         IsChecked="{Binding SelectedSearchField,
+                                             Mode=TwoWay,
+                                             Converter={StaticResource EnumToBooleanConverter},
+                                             ConverterParameter={x:Static vm:PeopleSearchField.LastName}}"/>
+
+                    <RadioButton Grid.Column="2" Width="135" Content="Zdravotní pojišťovna"
+                         IsChecked="{Binding SelectedSearchField,
+                                             Mode=TwoWay,
+                                             Converter={StaticResource EnumToBooleanConverter},
+                                             ConverterParameter={x:Static vm:PeopleSearchField.Insurance}}"/>
+
+                    <RadioButton Grid.Column="3" Width="50" Content="Tým"
+                         IsChecked="{Binding SelectedSearchField,
+                                             Mode=TwoWay,
+                                             Converter={StaticResource EnumToBooleanConverter},
+                                             ConverterParameter={x:Static vm:PeopleSearchField.Team}}"/>
+
+                    <RadioButton Grid.Column="4" Width="50" Content="Role"
+                         IsChecked="{Binding SelectedSearchField,
+                                             Mode=TwoWay,
+                                             Converter={StaticResource EnumToBooleanConverter},
+                                             ConverterParameter={x:Static vm:PeopleSearchField.Role}}"/>
+                </Grid>
+            </StackPanel>
+            
+            <!--Tlačítko nastavení-->
+            <Button Grid.Column="1" Content="Správa týmů a rolí" FontSize="14" HorizontalContentAlignment="Center"
+            Name="btnSettings" MaxHeight="30" Click="btnSettings_Click"/>
+        </Grid>
+
+        
+        
+        <!--Zobrazení výsledku hledání-->
+        <DataGrid Grid.Row="1" ItemsSource="{Binding People}" AutoGenerateColumns="False"
+                  IsReadOnly="False" CanUserAddRows="False" RowEditEnding="PeopleGrid_RowEditEnding"
+                  Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Příjmení" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Jméno" 
+                                    Binding="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Datum narození" 
+                                    Binding="{Binding DateOfBirth, StringFormat=dd.MM.yyyy, UpdateSourceTrigger=LostFocus}"/>
+                <DataGridTextColumn Header="Rodné číslo" 
+                                    Binding="{Binding BirthNumber, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Zdravotní pojišťovna" 
+                                    Binding="{Binding InsuranceCompanyName, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Číslo zdravotní pojišťovny" 
+                    Binding="{Binding InsuranceCompanyId, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Město" 
+                                    Binding="{Binding City, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Ulice" 
+                                    Binding="{Binding StreetName, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Číslo popisné" 
+                                    Binding="{Binding PostalNumber, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="PSČ" 
+                                    Binding="{Binding PostalCode, UpdateSourceTrigger=PropertyChanged}"/>
+                
+                <!--Team-->
+                <DataGridTemplateColumn Header="Tým">
+                    <!-- režim zobrazení -->
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Team.Name}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                    <!-- režim editace (po double-clicku) -->
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <ComboBox
+                        ItemsSource="{Binding DataContext.Teams,
+                                              RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                        SelectedValuePath="Id"
+                        DisplayMemberPath="Name"
+                        SelectedValue="{Binding TeamId, UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- ROLE -->
+                <DataGridTemplateColumn Header="Role">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Role.Name}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <ComboBox
+                        ItemsSource="{Binding DataContext.Roles,
+                                              RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                        SelectedValuePath="Id"
+                        DisplayMemberPath="Name"
+                        SelectedValue="{Binding RoleId, UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
