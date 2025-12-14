@@ -20,8 +20,8 @@ namespace Mach_rocnikova_prace.ViewModels
             var contextFactory = new RocnikovkaDbContextFactory();
             PersonDataService peopleService = new PersonDataService(contextFactory);
 
-            GenericDataService<Team> teamService = new GenericDataService<Team>(contextFactory);
-            GenericDataService<Role> roleService = new GenericDataService<Role>(contextFactory);
+            TeamDataService teamService = new TeamDataService(contextFactory);
+            RoleDataService roleService = new RoleDataService(contextFactory);
 
             Navigator = new Navigator(peopleService, teamService, roleService);
 

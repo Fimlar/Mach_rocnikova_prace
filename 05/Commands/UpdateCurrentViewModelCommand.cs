@@ -17,13 +17,13 @@ namespace Mach_rocnikova_prace.Commands
 
         private readonly INavigator _navigator;
         private readonly PersonDataService _peopleService;
-        private readonly IDataService<Team> _teamService;
-        private readonly IDataService<Role> _roleService;
+        private readonly TeamDataService _teamService;
+        private readonly RoleDataService _roleService;
 
         public UpdateCurrentViewModelCommand(INavigator navigator,
                                              PersonDataService peopleService,
-                                             IDataService<Team> teamService,
-                                             IDataService<Role> roleService)
+                                             TeamDataService teamService,
+                                             RoleDataService roleService)
         {
             _navigator = navigator;
             _peopleService = peopleService;

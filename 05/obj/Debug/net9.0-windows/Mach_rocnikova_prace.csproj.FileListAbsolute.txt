@@ -763,7 +763,11 @@ C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\re
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\PeopleSearchView.g.cs
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\PeopleSearchView.baml
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Styles\BasicButton.baml
-C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\TeamRoleAddWindow.g.cs
-C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\TeamRoleAddWindow.baml
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Controls\CustomTextBox.g.cs
 C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Controls\CustomTextBox.baml
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\TeamRoleCRUD.g.cs
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\TeamRoleCRUD.baml
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Controls\WidgetCard.g.cs
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Controls\WidgetCard.baml
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\Cards\PeopleSummary.g.cs
+C:\Users\Filip\Documents\Git\Mach_rocnikova_prace\05\obj\Debug\net9.0-windows\Views\Cards\PeopleSummary.baml

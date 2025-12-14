@@ -205,5 +205,27 @@ namespace Mach_rocnikova_prace.Services
             }
         }
 
+        /// <summary>
+        /// Vrátí všechny členy s konkrétním roleId
+        /// </summary>
+        /// <param name="roleId">hledané roleId</param>
+        /// <returns>seznam členů</returns>
+        public async Task<bool> AnyWithRoleAsync(int roleId)
+        {
+            using var context = _contextFactory.CreateDbContext();
+            return await context.People.AnyAsync(p => p.RoleId == roleId);
+        }
+
+        /// <summary>
+        /// Vrátí všechny členy s konkrétním teamId
+        /// </summary>
+        /// <param name="teamId">hledané teamId</param>
+        /// <returns>seznam členů</returns>
+        public async Task<bool> AnyWithTeamAsync(int teamId)
+        {
+            using var context = _contextFactory.CreateDbContext();
+            return await context.People.AnyAsync(p => p.TeamId == teamId);
+        }
+
     }
 }

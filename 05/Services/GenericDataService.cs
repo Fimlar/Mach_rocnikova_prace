@@ -44,7 +44,7 @@ namespace Mach_rocnikova_prace.Services
         /// </summary>
         /// <param name="id">id objektu na smazání</param>
         /// <returns>boolean úspěšnosti</returns>
-        public async Task<bool> Delete(int id)
+        public virtual async Task<bool> Delete(int id)
         {
             return await _nonQueryDataService.Delete(id);
         }

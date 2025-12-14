@@ -4,9 +4,30 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Mach_rocnikova_prace.Views"
+             xmlns:controls="clr-namespace:Mach_rocnikova_prace.Controls"
+             xmlns:views="clr-namespace:Mach_rocnikova_prace.Views.Cards"
              mc:Ignorable="d" 
+             Background="White"
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <TextBlock Text="Domov"/>
+    <Grid Margin="16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Karta 1-->
+        <controls:WidgetCard Grid.Row="0" Grid.Column="0" Title="Přehled lidí">
+            <controls:WidgetCard.HeaderRight>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="přejít na"/>
+                </StackPanel>
+            </controls:WidgetCard.HeaderRight>
+
+            <!--views:PeopleSummary DataContext="{Binding PeopleSummary}"/-->
+        </controls:WidgetCard>
     </Grid>
 </UserControl>

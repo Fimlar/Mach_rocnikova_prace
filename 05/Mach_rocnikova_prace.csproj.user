@@ -14,6 +14,12 @@
     <Compile Update="Controls\SearchPanel.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Controls\WidgetCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Cards\PeopleSummary.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -23,7 +29,7 @@
     <Compile Update="Views\PeopleView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\TeamRoleAddWindow.xaml.cs">
+    <Compile Update="Views\TeamRoleCRUD.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

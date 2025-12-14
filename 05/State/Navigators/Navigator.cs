@@ -30,8 +30,8 @@ namespace Mach_rocnikova_prace.State.Navigators
         public ICommand UpdateCurrentViewModelCommand { get; }
 
         public Navigator(PersonDataService peopleService,
-                         IDataService<Team> teamService,
-                         IDataService<Role> roleService)
+                         TeamDataService teamService,
+                         RoleDataService roleService)
         {
             UpdateCurrentViewModelCommand =
                 new UpdateCurrentViewModelCommand(this, peopleService, teamService, roleService);
