@@ -145,7 +145,7 @@
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
 
-                <!-- ROLE -->
+                <!-- Role -->
                 <DataGridTemplateColumn Header="Role">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
