@@ -1,0 +1,59 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Styl NavigationBaru-->
+    <Style x:Key="NavButton" TargetType="RadioButton">
+        <!--Vlastnosti, jež chceme upravovat-->
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Padding" Value="5, 5"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Background" Value="{StaticResource BrushPrimary1}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid x:Name="gridMain" Background="{TemplateBinding Background}">
+                        <!--Úpravy textu v tlačítkách-->
+                        <!--Použití nastavených properties-->
+                        <TextBlock Text="{TemplateBinding Content}"
+                                   Padding="{TemplateBinding Padding}"
+                                   HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+                    </Grid>
+                    
+                    <!--Triggers-->
+                    <ControlTemplate.Triggers>
+                        <!--Co hlídáme-->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Background" Value="{StaticResource BrushPrimary2}" TargetName="gridMain"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
+        <!--Triggers-->
+        <Style.Triggers>
+            <!--Když se najede myší na tlačítko-->
+            <EventTrigger RoutedEvent="MouseEnter">
+                <!--Začínáme "animaci"-->
+                <BeginStoryboard>
+                    <Storyboard>
+                        <!--Co chceme aby se stalo v animaci-->
+                        <ColorAnimation To="{StaticResource ColorPrimary2}" Duration="0:0:0.1" Storyboard.TargetProperty="Background.Color"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+
+            <!--Když se odjede myší z tlačítka-->
+            <EventTrigger RoutedEvent="MouseLeave">
+                <!--Začínáme "animaci"-->
+                <BeginStoryboard>
+                    <Storyboard>
+                        <!--Co chceme aby se stalo v animaci-->
+                        <ColorAnimation To="{StaticResource ColorPrimary1}" Duration="0:0:0.1" Storyboard.TargetProperty="Background.Color"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    
+</ResourceDictionary>
